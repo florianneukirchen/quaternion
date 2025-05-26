@@ -1,7 +1,13 @@
 # Quaternions 
 
-Calculate 3D rotations with Quaternions using a `Quaternions` class.
-See the [Jupyter Notebook](test_quaternion_class.ipynb) for more examples.
+This project provides a simple python class for calculations with Quaternions.
+They are often used to calculate 3D rotations (avoiding gimbal locks, interpolation errors and other problems). 
+
+Quaternions are kind of 4-dimensional complex numbers. See [Visualizing quaternions](https://eater.net/quaternions) for an animated introduction.
+
+For production code you'll probably prefer [Scipy.spatial.transform.Rotation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.transform.Rotation.html).
+
+See the [Jupyter Notebook](test_quaternion_class.ipynb) for more examples. 
 
 
 Example: 
