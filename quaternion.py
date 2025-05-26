@@ -82,6 +82,8 @@ class Quaternion:
         W[3, :3] = -self.vector
         return W
 
+    def as_matrix(self):
+        return (self.as_W().T @ self.as_Q())[:3, :3]
 
     def __str__(self):
         return f"{self.array[0]} i + {self.array[1]} j + {self.array[2]} k + {self.array[3]}"
