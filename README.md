@@ -4,7 +4,6 @@ Calculate 3D rotations with Quaternions using a `Quaternions` class.
 See the [Jupyter Notebook](test_quaternion_class.ipynb) for more examples.
 
 
-
 Example: 
 
 ```python
