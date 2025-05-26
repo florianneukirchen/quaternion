@@ -21,6 +21,6 @@ point = [1,2,3]
 
 p = Quaternion.from_point(point)
 
-q3 = qinv * p2 * qinv.conjugate()
+q3 = q1 * p2 * q1.conjugate()
 ```
 
